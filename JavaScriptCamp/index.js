@@ -1,5 +1,3 @@
-function functionWithArgs(param1, param2) {
-   console.log(param1 + param2);
+function timesFive(num) {
+   return num * 5;
 }
-
-functionWithArgs(2, 3);
