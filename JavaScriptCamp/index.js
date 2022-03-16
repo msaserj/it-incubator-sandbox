@@ -1,2 +1,2 @@
 // Only change code below this line
-const myArray = ["string", 1];
+const myArray = [["First", 1], ["Second", 2]];
