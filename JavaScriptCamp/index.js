@@ -1,20 +1,25 @@
-// Setup
-function phoneticLookup(val) {
-   let result = "";
-
-   // Only change code below this line
-   let lookup = {
-      "alpha": "Adams",
-      "bravo": "Boston",
-      "charlie": "Chicago",
-      "delta": "Denver",
-      "echo": "Easy",
-      "foxtrot": "Frank"
+const myMusic = [
+   {
+      "artist": "Billy Joel",
+      "title": "Piano Man",
+      "release_year": 1973,
+      "formats": [
+         "CD",
+         "8T",
+         "LP"
+      ],
+      "gold": true
+   },
+   {
+      "artist": "Orbital",
+      "title": "Halcion",
+      "release_year": 1992,
+      "formats": [
+         "CD",
+         "Cassette",
+         "LP"
+      ],
+      "gold": true
    }
+];
 
-   result = lookup[val];
-   // Only change code above this line
-   return result;
-}
-
-phoneticLookup("charlie");
