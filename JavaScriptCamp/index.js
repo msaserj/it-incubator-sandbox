@@ -1,6 +1,7 @@
-function convertToInteger(str) {
-   const a = parseInt(str, 2);
-   return a;
+function checkSign(num) {
+   return (num > 0) ? "positive"
+      : (num == 0) ? "zero"
+         : "negative";
 }
 
-convertToInteger("10011");
+checkSign(10);
